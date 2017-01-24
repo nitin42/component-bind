@@ -1,0 +1,16 @@
+{
+  "name": "set-bind",
+  "version": "0.0.1",
+  "description": "Binds all the class methods to their instances in your component.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter=nyan"
+  },
+  "author": "Nitin Tulswani <tulswani19@gmail.com>",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
