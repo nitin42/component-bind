@@ -1,4 +1,6 @@
 # set-bind
+[![Build Status](https://travis-ci.org/nitin42/set-bind.svg?branch=master)](https://travis-ci.org/nitin42/set-bind)
+
 > Binds all the class methods to their instances in your components.
 
 
