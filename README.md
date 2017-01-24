@@ -1,4 +1,4 @@
-# set-bind
+# cmp-bind
 [![Build Status](https://travis-ci.org/nitin42/set-bind.svg?branch=master)](https://travis-ci.org/nitin42/set-bind)
 
 > Binds all the class methods to their instances in your components.
@@ -10,12 +10,12 @@
 
 ## Install
 ```
-npm install --save set-bind
+npm install --save cmp-bind
 ```
 
 ## Usage
 ```javascript
-const binder = require('set-bind');
+const binder = require('cmp-bind');
 
 class App {
   constructor(name) {
