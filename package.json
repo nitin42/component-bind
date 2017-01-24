@@ -1,6 +1,6 @@
 {
-  "name": "set-bind",
-  "version": "0.0.1",
+  "name": "cmp-bind",
+  "version": "0.0.2",
   "description": "Binds all the class methods to their instances in your component.",
   "main": "index.js",
   "scripts": {
