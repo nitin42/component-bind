@@ -6,6 +6,10 @@
   "scripts": {
     "test": "./node_modules/.bin/mocha --reporter=nyan"
   },
+  "repository": {
+   "type": "git",
+   "url": "https://github.com/nitin42/set-bind"
+  },
   "author": "Nitin Tulswani <tulswani19@gmail.com>",
   "license": "ISC",
   "dependencies": {},
