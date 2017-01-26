@@ -15,7 +15,7 @@ describe('binder', () => {
   });
 
   it('should bind the class method', () => {
-    class Comp {
+    class App {
       constructor(name, state) {
         this.name = name || null;
         this.state = state || null;
@@ -27,7 +27,7 @@ describe('binder', () => {
       }
     }
 
-    const child = new Comp('App');
+    const child = new App('App');
     const logger = child.component;
 
     expect(logger()).to.equal('App');
