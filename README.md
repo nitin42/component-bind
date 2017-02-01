@@ -32,10 +32,10 @@ class App {
   }
 }
 
-const child = new App('App');
+const child = new App('Component');
 
 const logger = child.component;
-console.log(logger()); // Nitin
+console.log(logger()); // Component
 
 const error = child.error;
 console.log(error()) // I am not a comp.
