@@ -23,7 +23,7 @@ class App {
     binder(this); // Call here
   };
 
-  component () {
+  component() {
     return `${this.name}`
   }
 
