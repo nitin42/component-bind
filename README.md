@@ -20,7 +20,6 @@ const binder = require('cmp-bind');
 class App {
   constructor(name) {
     this.name = name || null,
-    this.state = false
     binder(this); // Call here
   };
 
@@ -31,11 +30,6 @@ class App {
   error() {
     return `I am not a comp.`;
   }
-
-  update() {
-    this.state = true;
-    return this.state;
-  }
 }
 
 const child = new App('App');
@@ -45,9 +39,6 @@ console.log(logger()); // Nitin
 
 const error = child.error;
 console.log(error()) // I am not a comp.
-
-const updater = child.update("");
-console.log(updater); // true
 ```
 
 ## Tests
